@@ -1,0 +1,70 @@
+h1 {
+  font-size: 80px;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* Links */
+a {
+  color: darkgreen;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 10px;
+  color: #555;
+}
+
+/* Center image */
+.center-image {
+  text-align: center;
+  margin: 20px 0;
+}
+.center-image img {
+  border-radius: 10px;
+}
+
+/* Center text */
+ .center-text {
+  text-align: center;
+}
+
+span,
+.highlight {
+  color: darkblue;
+  font-weight: bold;
+}
+
+.light-blue {
+  background-color: #e6f7ff;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#welcome {
+  background-image: url("https://pohcdn.com/sites/default/files/styles/paragraph__hero_banner__hb_image__1280bp/public/hero_banner/Maidan_1.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.photo-gallery img {
+  height: 200px;
+  width: auto;
+  border-radius: 10px;
+}
